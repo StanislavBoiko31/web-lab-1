@@ -1,0 +1,133 @@
+html, body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#header {
+  min-height: 20vh;
+  width: 100%;
+  background: black;
+  color: white;
+  border-bottom: 4px solid silver;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+  align-items: anchor-center;
+}
+
+.left-text-1, .right-text-1 {
+  margin: 0;
+  font-weight: normal;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.left-text-1 {
+  font-size: 24px;
+  width: 70%;
+}
+
+.right-text-1 {
+  font-size: 24px;
+  width: 25%;
+  text-align: right;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 2px;
+  background-color: grey;
+  color: black;
+  flex-grow: 1;
+  min-height: 0;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  font-size: 30px;
+}
+
+.grid-item_2 {
+  grid-row: 1 / span 3;
+  display: flex;
+  justify-content: right;
+  align-items: anchor-center;
+
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+.grid-item_3 {
+  text-align: center;
+  grid-row: 1 / span 2;
+}
+.grid-item_4 {
+  display: flex;
+  justify-content: left;
+  align-items: anchor-center;
+  grid-column: 3 / span 3;
+}
+.grid-item_5 {
+  display: flex;
+  justify-content: left;
+  align-items: anchor-center;
+  grid-column: 3 / span 3;
+}
+
+.grid-item_6 {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+  grid-column: 2 / span 4;
+}
+
+.left-text-6, .right-text-6 {
+  margin: 0;
+  font-weight: normal;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.left-text-6 {
+  font-size: 24px;
+  width: 70%;
+}
+
+.right-text-6 {
+  display: flex;
+  justify-content: right;
+  align-items: anchor-center;
+  font-size: 24px;
+  width: 25%;
+  text-align: right;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a{
+  color: red;
+  text-decoration: none;
+}
+
+a:hover{
+  color:blue;
+  text-decoration: underline;
+}
+
+h5 {
+  padding: 0;
+  margin: 0;
+}
+
