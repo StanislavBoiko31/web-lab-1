@@ -68,6 +68,9 @@ body {
   text-align: right;
 }
 .grid-item_3 {
+  display: flex;
+  justify-content: center;
+  align-items: anchor-center;
   text-align: center;
   grid-row: 1 / span 2;
 }
@@ -76,6 +79,9 @@ body {
   justify-content: left;
   align-items: anchor-center;
   grid-column: 3 / span 3;
+  margin: 0;
+  padding: 0;
+  text-align: left;
 }
 .grid-item_5 {
   display: flex;
@@ -113,7 +119,9 @@ body {
 }
 
 ul {
-  list-style-type: none;
+  padding: 5px;
+  margin: 0;
+  list-style-type: circle;
 }
 
 a{
